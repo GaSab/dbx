@@ -28,7 +28,7 @@ public class ConnectionSGBD {
         try {
             if (connection == null) {
                 System.out.println(config.getProperty("sgbd"));
-                switch (config.getProperty("sgbd")) {
+                    switch (config.getProperty("sgbd")) {
                     case "sqlserver":
                         connection = DriverManager.getConnection(config.getProperty("urlSQLServer") + "databaseName=" + config.getProperty("databaseName") + ";", config.getProperty("userSQLServer"), config.getProperty("pwdSQLServer"));
                         log.msg("Conectado ao bd " + config.getProperty("urlSQLServer") + ":" + config.getProperty("databaseName"));

@@ -6,7 +6,7 @@ versao=0.1
 # sqlserver
 sgbd=postgresql
 # Database Name
-databaseName=pg_tpch_1gb
+databaseName=postgres
 # Niveis de Debug ===========================================================
 # 1* = AVISOS
 # *1 = CRIAR ARQUIVO LOG NO DISCO
